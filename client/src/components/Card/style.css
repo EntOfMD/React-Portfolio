@@ -6,13 +6,14 @@
   position: relative;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  max-width: 30rem;
 }
 
 .card > .img-container {
   min-height: 35%;
   overflow: hidden;
   text-align: center;
-  background: #6caddc;
+  background: linen;
 }
 .card > .img-container > img {
   width: 90%;

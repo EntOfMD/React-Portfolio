@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Footer(props) {
   return (
-    <footer className="footer bg-dark p-3 text-light fixed-bottom">
+    <footer className="footer bg-dark p-3 text-light">
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
