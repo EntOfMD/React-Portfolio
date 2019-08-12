@@ -1,0 +1,8 @@
+a {
+  color: steelblue;
+}
+
+a:hover {
+  color: slategray;
+  text-decoration: none;
+}
