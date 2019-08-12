@@ -1,7 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
-const logger = require('morgan');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -16,6 +15,7 @@ app.use(
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
 } else if (app.get('env') === 'development') {
+    const logger = require('morgan');
     app.use(logger('dev'));
 }
 
